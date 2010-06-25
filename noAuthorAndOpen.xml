@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="false" classpath="robocode.ui-1.7.2.0.jar;lib/tools.jar;robocode.battle-1.7.2.0.jar;robocode.sound-1.7.2.0.jar;robocode.core-1.7.2.0.jar;jgap.jar;robocode.repository-1.7.2.0.jar;picocontainer-2.6.jar;robocode.host-1.7.2.0.jar;robocode.jar;roborumble.jar;codesize-1.1.jar;robocode.ui.editor-1.7.2.0.jar" destdir="javadoc" doctitle="AESI JavaDoc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="aesi.graphicalR,aesi.io,aesi" source="1.6" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

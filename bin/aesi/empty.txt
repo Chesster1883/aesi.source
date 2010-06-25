@@ -1,0 +1,17 @@
+package aesi;
+
+
+import robocode.AdvancedRobot;
+import robocode.RobocodeFileOutputStream;
+
+import java.awt.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintStream;
+
+
+public class empty extends AdvancedRobot 
+{
+
+	

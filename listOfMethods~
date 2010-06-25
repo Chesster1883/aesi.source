@@ -1,0 +1,9 @@
+{	setAhead(double distance) , setBack(double distance) , setFire(double power) , 	setMaxTurnRate(double newMaxTurnRate) , 	setMaxVelocity(double newMaxVelocity) , setTurnGunLeft(double degrees) , setTurnGunRight(double degrees) , setTurnLeft(double degrees) , setTurnRadarLeft(double degrees) , 	setTurnRadarRight(double degrees) , setTurnRight(double degrees) }
+
+
+
+
+
+
+Boolean:
+{setAdjustGunForRobotTurn(boolean independent) , 	setAdjustRadarForGunTurn(boolean independent) , setAdjustRadarForRobotTurn(boolean independent) } maar wss niet nodig

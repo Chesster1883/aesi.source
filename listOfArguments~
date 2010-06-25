@@ -1,0 +1,4 @@
+{getDistanceRemaining() ,, 	getGunTurnRemaining() , 	getGunTurnRemainingDegrees() , getHeadingDegrees() , getRadarHeadingDegrees() , getRadarTurnRemaining() , 	getTurnRemaining() , 	getBattleFieldHeight() , getBattleFieldWidth() , getEnergy() , getGunCoolingRate() , getGunHeading() ,  getGunHeat() , getHeading() , 	getHeight() , 	getRadarHeading() , 	getVelocity() , getWidth() , getX() , getY() }
+
+
+// Hier moet nog event dingetjes bij van e.getHeading ofzo

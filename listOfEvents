@@ -1,0 +1,61 @@
+ void 	run()
+          The main method in every robot.
+ void 	onHitByBullet(HitByBulletEvent event)
+          This method is called when your robot is hit by a bullet.
+ void 	onHitRobot(HitRobotEvent event)
+          This method is called when your robot collides with another robot.
+ void 	onHitWall(HitWallEvent event)
+          This method is called when your robot collides with a wall.
+ void 	onBulletHit(BulletHitEvent event)
+          This method is called when one of your bullets hits another robot.
+ void 	onBulletMissed(BulletMissedEvent event)
+          This method is called when one of your bullets misses, i.e. hits a wall.
+ void 	onRobotDeath(RobotDeathEvent event)
+          This method is called when another robot dies.2
+ void 	onScannedRobot(ScannedRobotEvent event)
+          This method is called when your robot sees another robot, i.e. when the robot's radar scan "hits" another robot.
+ 
+ // the rest is less relevant
+ void 	onStatus(StatusEvent e)
+          This method is called every turn in a battle round in order to provide the robot status as a complete snapshot of the robot's current state at that specific time.
+ void 	onBulletHitBullet(BulletHitBulletEvent event)
+          This method is called when one of your bullets hits another bullet.
+ // even more irrelevant stuff follows
+ void 	onBattleEnded(BattleEndedEvent event)
+          This method is called after the end of the battle, even when the battle is aborted.
+ void 	onDeath(DeathEvent event)
+          This method is called if your robot dies.
+ void 	onKeyPressed(KeyEvent e)
+          This method is called when a key has been pressed.
+ void 	onKeyReleased(KeyEvent e)
+          This method is called when a key has been released.
+ void 	onKeyTyped(KeyEvent e)
+          This method is called when a key has been typed (pressed and released).
+ void 	onMouseClicked(MouseEvent e)
+          This method is called when a mouse button has been clicked (pressed and released).
+ void 	onMouseDragged(MouseEvent e)
+          This method is called when a mouse button has been pressed and then dragged.
+ void 	onMouseEntered(MouseEvent e)
+          This method is called when the mouse has entered the battle view.
+ void 	onMouseExited(MouseEvent e)
+          This method is called when the mouse has exited the battle view.
+ void 	onMouseMoved(MouseEvent e)
+          This method is called when the mouse has been moved.
+ void 	onMousePressed(MouseEvent e)
+          This method is called when a mouse button has been pressed.
+ void 	onMouseReleased(MouseEvent e)
+          This method is called when a mouse button has been released.
+ void 	onMouseWheelMoved(MouseWheelEvent e)
+          This method is called when the mouse wheel has been rotated.
+ void 	onPaint(Graphics2D g)
+          This method is called every time the robot is painted.
+ void 	onRoundEnded(RoundEndedEvent event)
+          This method is called after the end of a round.
+ void 	onWin(WinEvent event)
+          This method is called if your robot wins a battle.
+ void 	onCustomEvent(CustomEvent event)
+          This method is called when a custom condition is met.
+ void 	onDeath(DeathEvent event)
+          This method is called if your robot dies.
+ void 	onSkippedTurn(SkippedTurnEvent event)
+          This method is called if the robot is using too much time between actions

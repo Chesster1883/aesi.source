@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project source with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/everything/uva/2ejaarsproject/jar/aesi.jar">
+            <manifest>
+                <attribute name="Main-Class" value="aesi.Program"/>
+                <attribute name="Class-Path" value=". aesi_lib/jgap.jar aesi_lib/robocode.jar aesi_lib/codesize-1.1.jar aesi_lib/picocontainer-2.6.jar aesi_lib/robocode.battle-1.7.2.0.jar aesi_lib/robocode.core-1.7.2.0.jar aesi_lib/robocode.host-1.7.2.0.jar aesi_lib/robocode.repository-1.7.2.0.jar aesi_lib/robocode.sound-1.7.2.0.jar aesi_lib/robocode.ui-1.7.2.0.jar aesi_lib/robocode.ui.editor-1.7.2.0.jar aesi_lib/roborumble.jar aesi_lib/tools.jar"/>
+            </manifest>
+            <fileset dir="C:/everything/uva/2ejaarsproject/source/bin"/>
+        </jar>
+        <delete dir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <mkdir dir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/jgap.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/robocode.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/codesize-1.1.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/picocontainer-2.6.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/robocode.battle-1.7.2.0.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/robocode.core-1.7.2.0.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/robocode.host-1.7.2.0.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/robocode.repository-1.7.2.0.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/robocode.sound-1.7.2.0.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/robocode.ui-1.7.2.0.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/robocode.ui.editor-1.7.2.0.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/roborumble.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+        <copy file="C:/everything/uva/2ejaarsproject/source/lib/tools.jar" todir="C:/everything/uva/2ejaarsproject/jar/aesi_lib"/>
+    </target>
+</project>

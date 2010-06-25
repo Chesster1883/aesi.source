@@ -1,0 +1,4 @@
+Graphical Representation of the Fitness Value created!
+Fitness Function created!
+Population Manager created!
+Candidate: 0 of 50 from round -1

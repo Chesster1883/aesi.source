@@ -1,0 +1,8 @@
+
+Double:
+{setAhead, setBack , setFire, 	setMaxTurnRate, 	setMaxVelocity, setTurnGunLeft , setTurnGunRight , setTurnLeft, setTurnRadarLeft , 	setTurnRadarRight, setTurnRight}
+
+
+
+Boolean (wss niet nodig):
+{setAdjustGunForRobotTurn, 	setAdjustRadarForGunTurn, setAdjustRadarForRobotTurn}
